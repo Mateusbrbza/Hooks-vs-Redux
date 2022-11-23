@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 export const ProductsContext = React.createContext({
     products: [],
-    toggleFavorite: () => {}
+    toggleFavorite: (id) => {}
 });
 
 export default props => {
