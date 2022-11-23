@@ -25,4 +25,5 @@ const Favorites = props => {
   return content;
 };
 
+
 export default Favorites;
