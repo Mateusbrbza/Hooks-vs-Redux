@@ -13,7 +13,8 @@ const configureStore = () => {
             return { products : updatedProducts};
         }
     }
-    initStore(actions, {products: [
+    initStore(actions, 
+    {products: [
             {
         id: 'p1',
         title: 'Cachecol vermelho',
@@ -42,4 +43,4 @@ const configureStore = () => {
 });
 };
 
-export default configureStore();
+export default configureStore;

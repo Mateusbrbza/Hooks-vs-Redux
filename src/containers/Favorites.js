@@ -1,4 +1,4 @@
-import {useContext} from 'react';
+import React from 'react';
 // import { useSelector } from 'react-redux';
 
 import FavoriteItem from '../components/Favorites/FavoriteItem';
